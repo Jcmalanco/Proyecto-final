@@ -1,0 +1,102 @@
+.green{
+    background-color: green;
+}
+
+.grey{
+    background-color: rgb(167, 167, 167);
+    border-radius: 10px;
+    padding: 14px 10px;
+    text-align: center;
+}
+
+.blue{
+    background: blue;
+    padding: 14px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.yellow{
+    background-color: yellow;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.orange{
+    background-color: orange;
+    text-align: center;
+    padding: 14px 10px;
+    border-radius: 3px;
+}
+.purple{
+    background-color: purple;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+.red{
+    background-color: red;
+    text-align: center;
+    padding: 14px 10px;
+    font-size: larger;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 10px;
+}
+.presta{
+    background-color: rgb(128, 93, 93);
+    border-radius: 10px;
+    text-align: center;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'calibri';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hijo-peque {
+    height: 20%;
+}
+
+.hijo-grande {
+    height: 60%;
+}
+
+.max-content {
+    height: 100%;
+}
+.alin {
+    border-radius: 10px;
+    text-align: right;
+    font-size: larger;
+}
+.inbotones{
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+.botones {
+    background-color: rgb(136, 172, 172);
+    padding: 14px 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(177, 48, 48);
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    cursor: pointer;
+}
