@@ -3,36 +3,38 @@
 }
 
 .grey{
-    background-color: rgb(167, 167, 167);
-    border-radius: 10px;
+    background-color:  rgb(0, 172, 0);
+    border-radius: 3px;
     padding: 14px 10px;
     text-align: center;
 }
 
 .blue{
-    background: blue;
+    background: rgb(133, 4, 4);
     padding: 14px 10px;
     text-align: center;
     border-radius: 10px;
     font-size: x-large;
     font-weight: 700;
+    color: whitesmoke;
 }
 
 .yellow{
-    background-color: yellow;
+    background-color: rgb(133, 4, 4);
     text-align: center;
     padding: 30px 10px;
     border-radius: 10px;
+    color: whitesmoke;
 }
 
 .orange{
-    background-color: orange;
+    background-color: rgba(242, 255, 0, 0.412);
     text-align: center;
     padding: 14px 10px;
     border-radius: 3px;
 }
 .purple{
-    background-color: purple;
+    background-color: rgba(242, 255, 0, 0.412);
     text-align: center;
     padding: 6px 10px;
     border-radius: 3px;
@@ -40,7 +42,7 @@
 .red{
     background-color: red;
     text-align: center;
-    padding: 14px 10px;
+    padding: 7px 10px;
     font-size: larger;
 }
 .white{
@@ -49,8 +51,8 @@
     padding: 14px 10px;
 }
 .presta{
-    background-color: rgb(128, 93, 93);
-    border-radius: 10px;
+    background-color: rgb(0, 172, 0);
+    border-radius: 3px;
     text-align: center;
 }
 html, body {
@@ -80,23 +82,22 @@ html, body {
 .inbotones{
     background-color: transparent;
     padding: 5px 10px;
-    border-radius: 10px;
-    border: 3px solid rgb(0, 0, 0);
     margin: 10px;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     font-size: larger;
     font-weight: 700;
 }
 .botones {
-    background-color: rgb(136, 172, 172);
+    background-color: red;
     padding: 14px 10px;
     border-radius: 10px;
-    border: 3px solid rgb(177, 48, 48);
+    border: 3px solid black;
     margin: 10px;
     margin-top: 20px;
     text-align: center;
     font-size: x-large;
     font-weight: 700;
     cursor: pointer;
+    color: whitesmoke;
 }
