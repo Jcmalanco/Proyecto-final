@@ -1,8 +1,11 @@
+header{
+    text-align: center;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #000000;
+    background: rgb(0, 0, 0)
   }
   .box{
     width: 300px;
@@ -33,7 +36,7 @@ body{
     border-radius: 24px;
     transition: 0.25s;
   }
-  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus,.botonprov:focus{
     width: 280px;
     border-color: #2ecc71;
   }
@@ -53,5 +56,24 @@ body{
   }
   .box input[type = "submit"]:hover{
     background: #2ecc71;
+  }
+  .botonprov{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 50px;
+  }
+  .botonprov:hover{
+    background: #2ecc71;
+    width: 70px;
   }
   
