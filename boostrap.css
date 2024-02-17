@@ -100,4 +100,8 @@ html, body {
     font-weight: 700;
     cursor: pointer;
     color: whitesmoke;
+    transition: 0.25s;
+}
+.botones:hover {
+    background-color: rgb(255, 74, 74);
 }
